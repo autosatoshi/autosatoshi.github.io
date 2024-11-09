@@ -2,10 +2,10 @@
   "name": "autosatoshi.github.io",
   "version": "1.0.0",
   "scripts": {
-    "clear": "rm -rf ./dist rm -rf ./.parcel-cache",
-    "start": "parcel ./src/index.html --dist-dir ./dist",
-    "watch": "parcel watch ./src/index.html --dist-dir ./dist",
-    "build": "parcel build ./src/index.html --dist-dir ./dist --no-scope-hoist"
+    "clear": "rm -rf ./docs rm -rf ./.parcel-cache",
+    "start": "parcel ./src/index.html --dist-dir ./docs",
+    "watch": "parcel watch ./src/index.html --dist-dir ./docs",
+    "build": "parcel build ./src/index.html --dist-dir ./docs --no-scope-hoist"
   },
   "author": "",
   "license": "ISC",
